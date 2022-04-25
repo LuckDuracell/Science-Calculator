@@ -17,6 +17,24 @@
 		0A4A97722815BA4700E43BD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A97482815BA4600E43BD3 /* ContentView.swift */; };
 		0A4A97732815BA4700E43BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A97492815BA4700E43BD3 /* Assets.xcassets */; };
 		0A4A97742815BA4700E43BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A97492815BA4700E43BD3 /* Assets.xcassets */; };
+		0ADD369B2815C2BD001CD072 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD369A2815C2BD001CD072 /* Sphere.swift */; };
+		0ADD369C2815C2BD001CD072 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD369A2815C2BD001CD072 /* Sphere.swift */; };
+		0ADD369E2815C303001CD072 /* Cylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD369D2815C303001CD072 /* Cylinder.swift */; };
+		0ADD369F2815C303001CD072 /* Cylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD369D2815C303001CD072 /* Cylinder.swift */; };
+		0ADD36A12815C313001CD072 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD36A02815C313001CD072 /* Rectangle.swift */; };
+		0ADD36A22815C313001CD072 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD36A02815C313001CD072 /* Rectangle.swift */; };
+		0ADD36A42815C32C001CD072 /* PolyCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD36A32815C32C001CD072 /* PolyCalc.swift */; };
+		0ADD36A52815C32C001CD072 /* PolyCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD36A32815C32C001CD072 /* PolyCalc.swift */; };
+		0AFC42BE2815CCAD00F6726A /* Nucleararator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42BD2815CCAD00F6726A /* Nucleararator.swift */; };
+		0AFC42BF2815CCAD00F6726A /* Nucleararator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42BD2815CCAD00F6726A /* Nucleararator.swift */; };
+		0AFC42C12815D0B200F6726A /* ProtonsAndNeutrons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42C02815D0B200F6726A /* ProtonsAndNeutrons.swift */; };
+		0AFC42C22815D0B200F6726A /* ProtonsAndNeutrons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42C02815D0B200F6726A /* ProtonsAndNeutrons.swift */; };
+		0AFC42C42815D54200F6726A /* HalfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42C32815D54200F6726A /* HalfLife.swift */; };
+		0AFC42C52815D54200F6726A /* HalfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42C32815D54200F6726A /* HalfLife.swift */; };
+		0AFC42C72815DC0E00F6726A /* LogarithmConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42C62815DC0E00F6726A /* LogarithmConverter.swift */; };
+		0AFC42C82815DC0E00F6726A /* LogarithmConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42C62815DC0E00F6726A /* LogarithmConverter.swift */; };
+		0AFC42CD2815F61900F6726A /* Waves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42CC2815F61900F6726A /* Waves.swift */; };
+		0AFC42CE2815F61900F6726A /* Waves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC42CC2815F61900F6726A /* Waves.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +58,8 @@
 		0A4A97472815BA4600E43BD3 /* Science_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Science_CalculatorApp.swift; sourceTree = "<group>"; };
 		0A4A97482815BA4600E43BD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A4A97492815BA4700E43BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A4A974E2815BA4700E43BD3 /* Science Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Science Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A4A97542815BA4700E43BD3 /* Science Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Science Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4A974E2815BA4700E43BD3 /* Sci Cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sci Cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4A97542815BA4700E43BD3 /* Sci Cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sci Cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4A97562815BA4700E43BD3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		0A4A975B2815BA4700E43BD3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4A975F2815BA4700E43BD3 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
@@ -49,6 +67,15 @@
 		0A4A97672815BA4700E43BD3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4A976B2815BA4700E43BD3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0A4A976D2815BA4700E43BD3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0ADD369A2815C2BD001CD072 /* Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		0ADD369D2815C303001CD072 /* Cylinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cylinder.swift; sourceTree = "<group>"; };
+		0ADD36A02815C313001CD072 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		0ADD36A32815C32C001CD072 /* PolyCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyCalc.swift; sourceTree = "<group>"; };
+		0AFC42BD2815CCAD00F6726A /* Nucleararator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nucleararator.swift; sourceTree = "<group>"; };
+		0AFC42C02815D0B200F6726A /* ProtonsAndNeutrons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtonsAndNeutrons.swift; sourceTree = "<group>"; };
+		0AFC42C32815D54200F6726A /* HalfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfLife.swift; sourceTree = "<group>"; };
+		0AFC42C62815DC0E00F6726A /* LogarithmConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogarithmConverter.swift; sourceTree = "<group>"; };
+		0AFC42CC2815F61900F6726A /* Waves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waves.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +126,12 @@
 			children = (
 				0A4A97472815BA4600E43BD3 /* Science_CalculatorApp.swift */,
 				0A4A97482815BA4600E43BD3 /* ContentView.swift */,
+				0AFC42CC2815F61900F6726A /* Waves.swift */,
+				0AFC42C62815DC0E00F6726A /* LogarithmConverter.swift */,
+				0AFC42C02815D0B200F6726A /* ProtonsAndNeutrons.swift */,
+				0AFC42C32815D54200F6726A /* HalfLife.swift */,
+				0AFC42BD2815CCAD00F6726A /* Nucleararator.swift */,
+				0ADD36A62815C33C001CD072 /* PolyCalc */,
 				0A4A97492815BA4700E43BD3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -107,8 +140,8 @@
 		0A4A974F2815BA4700E43BD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A4A974E2815BA4700E43BD3 /* Science Calculator.app */,
-				0A4A97542815BA4700E43BD3 /* Science Calculator.app */,
+				0A4A974E2815BA4700E43BD3 /* Sci Cal.app */,
+				0A4A97542815BA4700E43BD3 /* Sci Cal.app */,
 				0A4A975B2815BA4700E43BD3 /* Tests iOS.xctest */,
 				0A4A97672815BA4700E43BD3 /* Tests macOS.xctest */,
 			);
@@ -141,12 +174,23 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		0ADD36A62815C33C001CD072 /* PolyCalc */ = {
+			isa = PBXGroup;
+			children = (
+				0ADD36A32815C32C001CD072 /* PolyCalc.swift */,
+				0ADD36A02815C313001CD072 /* Rectangle.swift */,
+				0ADD369D2815C303001CD072 /* Cylinder.swift */,
+				0ADD369A2815C2BD001CD072 /* Sphere.swift */,
+			);
+			path = PolyCalc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A4A974D2815BA4700E43BD3 /* Science Calculator (iOS) */ = {
+		0A4A974D2815BA4700E43BD3 /* Sci Cal (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A4A97772815BA4700E43BD3 /* Build configuration list for PBXNativeTarget "Science Calculator (iOS)" */;
+			buildConfigurationList = 0A4A97772815BA4700E43BD3 /* Build configuration list for PBXNativeTarget "Sci Cal (iOS)" */;
 			buildPhases = (
 				0A4A974A2815BA4700E43BD3 /* Sources */,
 				0A4A974B2815BA4700E43BD3 /* Frameworks */,
@@ -156,14 +200,16 @@
 			);
 			dependencies = (
 			);
-			name = "Science Calculator (iOS)";
+			name = "Sci Cal (iOS)";
+			packageProductDependencies = (
+			);
 			productName = "Science Calculator (iOS)";
-			productReference = 0A4A974E2815BA4700E43BD3 /* Science Calculator.app */;
+			productReference = 0A4A974E2815BA4700E43BD3 /* Sci Cal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A4A97532815BA4700E43BD3 /* Science Calculator (macOS) */ = {
+		0A4A97532815BA4700E43BD3 /* Sci Cal (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A4A977A2815BA4700E43BD3 /* Build configuration list for PBXNativeTarget "Science Calculator (macOS)" */;
+			buildConfigurationList = 0A4A977A2815BA4700E43BD3 /* Build configuration list for PBXNativeTarget "Sci Cal (macOS)" */;
 			buildPhases = (
 				0A4A97502815BA4700E43BD3 /* Sources */,
 				0A4A97512815BA4700E43BD3 /* Frameworks */,
@@ -173,9 +219,9 @@
 			);
 			dependencies = (
 			);
-			name = "Science Calculator (macOS)";
+			name = "Sci Cal (macOS)";
 			productName = "Science Calculator (macOS)";
-			productReference = 0A4A97542815BA4700E43BD3 /* Science Calculator.app */;
+			productReference = 0A4A97542815BA4700E43BD3 /* Sci Cal.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0A4A975A2815BA4700E43BD3 /* Tests iOS */ = {
@@ -240,7 +286,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A4A97452815BA4500E43BD3 /* Build configuration list for PBXProject "Science Calculator" */;
+			buildConfigurationList = 0A4A97452815BA4500E43BD3 /* Build configuration list for PBXProject "Sci Cal" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -249,12 +295,14 @@
 				Base,
 			);
 			mainGroup = 0A4A97412815BA4500E43BD3;
+			packageReferences = (
+			);
 			productRefGroup = 0A4A974F2815BA4700E43BD3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A4A974D2815BA4700E43BD3 /* Science Calculator (iOS) */,
-				0A4A97532815BA4700E43BD3 /* Science Calculator (macOS) */,
+				0A4A974D2815BA4700E43BD3 /* Sci Cal (iOS) */,
+				0A4A97532815BA4700E43BD3 /* Sci Cal (macOS) */,
 				0A4A975A2815BA4700E43BD3 /* Tests iOS */,
 				0A4A97662815BA4700E43BD3 /* Tests macOS */,
 			);
@@ -299,8 +347,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFC42C72815DC0E00F6726A /* LogarithmConverter.swift in Sources */,
+				0ADD36A12815C313001CD072 /* Rectangle.swift in Sources */,
+				0AFC42C12815D0B200F6726A /* ProtonsAndNeutrons.swift in Sources */,
 				0A4A97712815BA4700E43BD3 /* ContentView.swift in Sources */,
+				0ADD36A42815C32C001CD072 /* PolyCalc.swift in Sources */,
 				0A4A976F2815BA4700E43BD3 /* Science_CalculatorApp.swift in Sources */,
+				0ADD369B2815C2BD001CD072 /* Sphere.swift in Sources */,
+				0AFC42CD2815F61900F6726A /* Waves.swift in Sources */,
+				0AFC42C42815D54200F6726A /* HalfLife.swift in Sources */,
+				0ADD369E2815C303001CD072 /* Cylinder.swift in Sources */,
+				0AFC42BE2815CCAD00F6726A /* Nucleararator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +365,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFC42C82815DC0E00F6726A /* LogarithmConverter.swift in Sources */,
+				0ADD36A22815C313001CD072 /* Rectangle.swift in Sources */,
+				0AFC42C22815D0B200F6726A /* ProtonsAndNeutrons.swift in Sources */,
 				0A4A97722815BA4700E43BD3 /* ContentView.swift in Sources */,
+				0ADD36A52815C32C001CD072 /* PolyCalc.swift in Sources */,
 				0A4A97702815BA4700E43BD3 /* Science_CalculatorApp.swift in Sources */,
+				0ADD369C2815C2BD001CD072 /* Sphere.swift in Sources */,
+				0AFC42CE2815F61900F6726A /* Waves.swift in Sources */,
+				0AFC42C52815D54200F6726A /* HalfLife.swift in Sources */,
+				0ADD369F2815C303001CD072 /* Cylinder.swift in Sources */,
+				0AFC42BF2815CCAD00F6726A /* Nucleararator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,12 +402,12 @@
 /* Begin PBXTargetDependency section */
 		0A4A975D2815BA4700E43BD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A4A974D2815BA4700E43BD3 /* Science Calculator (iOS) */;
+			target = 0A4A974D2815BA4700E43BD3 /* Sci Cal (iOS) */;
 			targetProxy = 0A4A975C2815BA4700E43BD3 /* PBXContainerItemProxy */;
 		};
 		0A4A97692815BA4700E43BD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A4A97532815BA4700E43BD3 /* Science Calculator (macOS) */;
+			target = 0A4A97532815BA4700E43BD3 /* Sci Cal (macOS) */;
 			targetProxy = 0A4A97682815BA4700E43BD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,27 +528,28 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 352;
 				DEVELOPMENT_TEAM = RV78ENMXZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.Science-Calculator";
-				PRODUCT_NAME = "Science Calculator";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = luckdev.scical;
+				PRODUCT_NAME = "Sci Cal";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -492,27 +559,28 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 352;
 				DEVELOPMENT_TEAM = RV78ENMXZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.Science-Calculator";
-				PRODUCT_NAME = "Science Calculator";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = luckdev.scical;
+				PRODUCT_NAME = "Sci Cal";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -538,7 +606,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.Science-Calculator";
-				PRODUCT_NAME = "Science Calculator";
+				PRODUCT_NAME = "Sci Cal";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -566,7 +634,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.Science-Calculator";
-				PRODUCT_NAME = "Science Calculator";
+				PRODUCT_NAME = "Sci Cal";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -655,7 +723,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A4A97452815BA4500E43BD3 /* Build configuration list for PBXProject "Science Calculator" */ = {
+		0A4A97452815BA4500E43BD3 /* Build configuration list for PBXProject "Sci Cal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A4A97752815BA4700E43BD3 /* Debug */,
@@ -664,7 +732,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A4A97772815BA4700E43BD3 /* Build configuration list for PBXNativeTarget "Science Calculator (iOS)" */ = {
+		0A4A97772815BA4700E43BD3 /* Build configuration list for PBXNativeTarget "Sci Cal (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A4A97782815BA4700E43BD3 /* Debug */,
@@ -673,7 +741,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A4A977A2815BA4700E43BD3 /* Build configuration list for PBXNativeTarget "Science Calculator (macOS)" */ = {
+		0A4A977A2815BA4700E43BD3 /* Build configuration list for PBXNativeTarget "Sci Cal (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A4A977B2815BA4700E43BD3 /* Debug */,
