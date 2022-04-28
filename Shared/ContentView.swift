@@ -22,7 +22,7 @@ struct ContentView: View {
                         }
                         VStack {
                             NavigationLink(destination: PolyCalc(), label: {
-                                listButton(image: "📝", title: "Value of 3D Objects", subtitle: "Now with Spheres too!")
+                                listButton(image: "📝", title: "Volume of 3D Objects", subtitle: "Now with Spheres too!")
                             })
                             Divider()
                         }
@@ -46,7 +46,7 @@ struct ContentView: View {
                         }
                         VStack {
                             NavigationLink(destination: ProtonsAndNeutrons(), label: {
-                                listButton(image: "⚛️", title: "Protons & Neutrons", subtitle: "From Atomic Number, Mass, and Charge")
+                                listButton(image: "⚛️", title: "Atomic Lookup", subtitle: "Get everything from density to state!")
                                     .padding(.bottom, 5)
                             })
                         }
@@ -108,5 +108,16 @@ struct listButton: View {
                 .foregroundColor(.accentColor)
                 .padding(.trailing, 5)
         } .padding()
+    }
+}
+
+extension View {
+   @ViewBuilder
+   func `if`<Content: View>(_ conditional: Bool, content: (Self) -> Content) -> some View {
+        if conditional {
+            content(self)
+        } else {
+            self
+        }
     }
 }
