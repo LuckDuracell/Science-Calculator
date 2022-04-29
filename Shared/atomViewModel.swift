@@ -24,7 +24,12 @@ class apiCall {
                         let held = try JSONDecoder().decode([Atom3].self, from: data!)
                         atoms = [Atom(atomicNumber: held.first?.atomicNumber ?? 0, symbol: held.first?.symbol ?? "", name: held.first?.name ?? "", standardState: held.first?.standardState ?? "", bondingType: held.first?.bondingType ?? "", meltingPoint: Double(held.first?.meltingPoint ?? "") ?? 99999.02, boilingPoint: Double(held.first?.boilingPoint ?? "") ?? 99999.02, density: Double(held.first?.density ?? "") ?? 99999.02)]
                     } catch {
-                        print("super error")
+                        do {
+                            let held = try JSONDecoder().decode([Atom4].self, from: data!)
+                            atoms = [Atom(atomicNumber: held.first?.atomicNumber ?? 0, symbol: held.first?.symbol ?? "", name: held.first?.name ?? "", standardState: held.first?.standardState ?? "", bondingType: held.first?.bondingType ?? "", meltingPoint: Double(held.first?.meltingPoint ?? "") ?? 99999.02, boilingPoint: Double(held.first?.boilingPoint ?? 0.0), density: Double(held.first?.density ?? 0.0) )]
+                        } catch {
+                            print("super big error")
+                        }
                     }
                 }
             }

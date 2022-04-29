@@ -50,12 +50,12 @@ struct ProtonsAndNeutrons: View {
                                 .padding(.vertical, 5)
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.8)
-                            Text("Boiling Point: \(String(describing: (atoms.first?.boilingPoint ?? 0) == 99999.02 ? "Unknown" : "\((atoms.first?.boilingPoint ?? 0))")) Kelvin")
+                            Text("Boiling Point: \(String(describing: (atoms.first?.boilingPoint ?? 0) == 99999.02 ? "Unknown" : "\((atoms.first?.boilingPoint ?? 0)) Kelvin"))")
                             //.font(.system(size: 25, weight: .bold, design: .rounded))
                                 .padding(.vertical, 5)
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.8)
-                            Text("Melting Point: \(String(describing: (atoms.first?.meltingPoint ?? 0) == 99999.02 ? "Unknown" : "\((atoms.first?.meltingPoint ?? 0))")) Kelvin")
+                            Text("Melting Point: \(String(describing: (atoms.first?.meltingPoint ?? 0) == 99999.02 ? "Unknown" : "\((atoms.first?.meltingPoint ?? 0)) Kelvin"))")
                             //.font(.system(size: 25, weight: .bold, design: .rounded))
                                 .padding(.vertical, 5)
                                 .lineLimit(1)
@@ -238,6 +238,36 @@ struct Atom3: Codable, Identifiable {
     let meltingPoint: String
     let boilingPoint: String
     let density: String
+    //let groupBlock: String
+    //let yearDiscovered: Int
+    //let block: String
+    //let cpkHexColor: String
+    //let group: Double
+    
+    
+}
+
+struct Atom4: Codable, Identifiable {
+    
+    let id = UUID()
+    
+    let atomicNumber: Int
+    let symbol: String
+    let name: String
+    //let atomicMass: Double
+    //let electronicConfiguration: String
+    //let electronegativity: StringOrDouble
+    //let atomicRadius: Double
+    //let ionRadius: String
+    //let vanDerWaalsRadius: Double
+    //let ionizationEnergy: Double
+    //let electronAffinity: Double
+    //let oxidationStates: String
+    let standardState: String
+    let bondingType: String
+    let meltingPoint: String
+    let boilingPoint: Double
+    let density: Double
     //let groupBlock: String
     //let yearDiscovered: Int
     //let block: String
